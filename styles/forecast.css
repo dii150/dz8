@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    transition: ease-in .1s;
+}
+
+body {
+    background: rgba(51, 153, 204, 1);
+    border: 25px rgba(43, 129, 172, 1) solid;
+}
+
+.container {
+    padding: 66px 130px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-family: 'Lucida Sans Unicode', serif;
+    font-size: 21px;
+    line-height: 25px;
+    color: white;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    max-height: 592px;
+    height: 100%;
+    max-width: 1170px;
+    width: 100%;
+    border: 2px white solid;
+    font-size: 0;
+    margin-bottom: 37px;
+}
+
+p {
+    font-family: 'Lucida Sans Unicode', serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.main_p {
+    font-family: 'Lucida Sans Unicode', serif;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.lower_p {
+    font-family: 'Lucida Sans Unicode', serif;
+    font-size: 22px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.tiles {
+    display: inline-block;
+    height: 147px;
+    font-size: 16px;
+    border: 2px solid white;
+    text-align: center;
+    padding-top: 35px;
+}
+
+ul:hover .tiles:not(:hover){
+    opacity: 0.5;
+}
+
+
+.tiles_lisbon {
+    width: 50%;
+    background: rgba(51, 153, 204, 1);
+}
+.tiles_paris {
+    width: 25%;
+    background: rgba(51, 204, 204, 1);
+}
+.tiles_belgrade {
+    width: 25%;
+    background: rgba(153, 102, 153, 1);
+}
+
+.tiles_venice {
+    width: 25%;
+    background: rgba(194, 71, 71, 1);
+}
+
+.tiles_telaviv {
+    width: 25%;
+    background: rgba(226, 103, 74, 1);
+}
+
+.tiles_cairo {
+    width: 25%;
+    background: rgba(255, 204, 102, 1);
+}
+
+.tiles_ny {
+    width: 25%;
+    background: rgba(153, 204, 153, 1);
+}
+
+.tiles_newdelhi {
+    width: 25%;
+    background: rgba(102, 153, 153, 1);
+}
+
+.tiles_sf {
+    width: 25%;
+    background: rgba(204, 102, 153, 1);
+}
+
+.tiles_tokyo {
+    width: 25%;
+    background: rgba(51, 153, 102, 1);
+}
+
+.tiles_sydney {
+    width: 25%;
+    background: rgba(102, 102, 153, 1);
+}
+
+.form {
+    margin: 30px 0;
+}
+
+input {
+    width: 150px;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    background: rgba(255, 255, 255, 0.3);
+    border: white 2px solid;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+input:hover {
+    background: none;
+    transform: scale(1.1);
+}
